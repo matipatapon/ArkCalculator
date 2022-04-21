@@ -1,0 +1,111 @@
+#container2
+{
+	
+	
+	
+	
+}
+.timer
+{
+	
+	width:600px;
+	background-image:url("img/tlo/tlo3.png");
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	text-align:center;
+	padding:10px;
+	color:white;
+	border-radius:10px;
+}
+.tnazwa 
+{
+background-image:url("img/tlo/tlo.png");	
+display:inline-block;
+	padding:10px;
+	font-size:20px;
+border-radius:10px;
+margin-right:70px;
+}
+.tzdjencie
+{
+	width:350px;
+	height:200px;
+	background-image:url("img/tlo/tlo4.png");
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+.tkordy
+{
+	border-radius:10px;
+	background-image:url("img/tlo/tlo.png");	
+	display:block;
+	width:50px;
+	float:left;
+	font-size:20px;
+	padding:10px;
+}
+.ttabela
+{
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url("img/tlo/tlo.png");
+	border-radius:10px;
+	font-size:20px;
+	padding:10px;
+	margin-top:10px;
+	
+}
+.tth
+{
+	background-image:url("img/tlo/tlo4.png");	
+}
+.tinput
+{
+	width:100%;
+	height:100%;
+	background-image:url("img/tlo/tlo4.png");	
+	padding:0px;
+	border:0px;
+	font-size:20px;
+	text-align:center;
+		color: #261a0d;
+		font-weight:bold;
+}
+.tprzycisk
+{
+	width:100%;
+	height:100%;
+	background-image:url("img/tlo/tlo4.png");	
+	padding:0px;
+	border:0px;
+	font-size:20px;
+	text-align:center;
+		color: #261a0d;
+		font-weight:bold;
+	transition:0.5s;
+}
+.tprzycisk:hover
+{
+	cursor:pointer;
+	transform:scale(0.8);
+}
+.tusun
+{
+background-image:url("img/tlo/tlo.png");	
+border:0px;
+color:white;
+font-size:20px;	
+padding:10px;
+border-radius:10px;
+margin-top:10px;
+transition:0.5s;
+	
+}
+.tusun:hover
+{
+		cursor:pointer;
+	transform:scale(1.2);
+}

@@ -1,0 +1,150 @@
+<html>
+
+<head>
+<script src="dino.js"></script>
+<script src="js.js"></script>
+<script src="timer.js"></script>
+ <link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="timer.css">
+</head>
+
+
+
+<body onload="start()">
+
+<div id="container">
+<div id="container1" >
+
+		<h1>LunoRex 2.0</h1>
+		
+		<div id="bar">
+			
+			<div id="listadino">
+			
+			
+			
+			</div>
+			<div id="lvlnazwa">level</div>
+			<input type="text" id="lvl" value="0">
+			
+		</div>
+		
+		<div id="dino">
+
+			<div id="nazwadino">
+			LunoZaur 999.lvl
+			
+			</div>
+			<div id="zdjenciedino">
+			
+			<img src="img/dino/luna.png">
+			</div>	
+			
+			<table id="dinotabela">
+			
+				<tr>
+					<th class="thtabela" style="border-left:0px;">Oswajanie</th>
+					<th class="thtabela">Agresywność Dino</th>
+					<th class="thtabela">Torpor</th>
+					<th class="thtabela">Czas Uśpienia</th>
+		
+					
+				</tr>
+				<tr>
+					<th id="rodzajoswajania" class="thtabela" style="border-left:0px;">Tulenie</th>
+					<th id="agresywnosc" class="thtabela">Baranek</th>
+					<th id="torpor" class="thtabela">9999999</th>
+					<th id="czasuspienia" class="thtabela">Duzo</th>
+			</table>
+			
+			
+			<table id="narkotabela">
+				<tr>
+					<th class="thtabela" style="border-top:0px;" colspan="5">Ilość surowców potrzebna do napełnienia pełnego torpora od 0</th>
+				
+				</tr>
+				<tr>
+					<th class="thnarko" style="border-top:0px;" >Rodzaj Usypiacza</th>
+					<th class="thnarko" style="border-top:0px;" ><img class="obraznarko" src="img/narko/0.png"></th>
+					<th class="thnarko" style="border-top:0px;" ><img class="obraznarko" src="img/narko/1.png"></th>
+					<th class="thnarko" style="border-top:0px;"  ><img class="obraznarko" src="img/narko/2.png"></th>
+					<th class="thnarko" style="border-top:0px;" ><img class="obraznarko" src="img/narko/3.png"></th>
+				</tr>
+				<tr>
+					<th class="thnarko">Do Maxa Potrzeba</th>
+					<th class="thnarko" id="NarcoBerry"></th>
+					<th class="thnarko" id="Narcotic"></th>
+					<th class="thnarko" id="BioToxin"></th>
+					<th class="thnarko" id="Grzybek"></th>
+				</tr>
+					<tr>
+					<th class="thnarko">Dodany Czas</th>
+					<th class="thnarko" id="czasNarcoBerry">99.99.99</th>
+					<th class="thnarko" id="czasNarcotic"></th>
+					<th class="thnarko" id="czasBioToxin"></th>
+					<th class="thnarko" id="czasGrzybek"></th>
+				</tr>
+			</table>
+		
+		
+		
+			<div id="bron">
+				<div id="bronnapis">Bron</div>
+				<div id="bronwybur"></div>
+				<div id="strzaly"></div>
+				<input type="text" value="100" id="brondmg">	
+				
+			</div>
+			
+		
+				<table id="Kordy">
+					<tr>
+						<th colspan="2" class="thkordy">Kordy gdzie leży Ryś</th>
+					</tr>
+					<tr>
+						<th class="thkordy">Wysokość</th>
+						<th class="thkordy">Szerokość</th>
+					</tr>
+					<tr>
+						<th class="thkordy" ><input class="starttimerinput" value="0" id="Wysokosc"></th>
+						<th class="thkordy" ><input class="starttimerinput" value="0" id="Szerokosc"></th>
+					
+					</tr>
+				
+				</table>
+			
+			
+			<button id="starttimer" class="przycisk" onclick="starttimer(dino)">Włącz Timer</button>
+			
+		
+			
+		
+		
+		
+		
+		</div>
+	
+	
+
+
+
+</div>
+
+<div id="container2">
+
+	<div id="timer0" ></div>
+
+
+
+</div>
+</div>
+<div id="muzyczka" ></div>
+</body>
+
+
+
+
+
+</html>
+
+
